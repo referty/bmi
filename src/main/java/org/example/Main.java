@@ -17,7 +17,7 @@ public class Main {
             w = Double.parseDouble(weight);
             h = Double.parseDouble(height) / 100;
         } catch (NumberFormatException e) {
-            System.out.println("НЕВЕРНО БЛЯТЬ");
+            System.out.println("Вы написали неверно, пожалуйста напишите правильно");
             return;
         }
         bmi = Math.round(w * 100 / Math.pow (h,2) ) / 100f;
